@@ -216,7 +216,6 @@ img {
 }
 body {
     max-width: 50%;
-    max-width: 9rem;
     min-width: 400px;
     margin: auto;
     background: transparent;
@@ -316,4 +315,21 @@ input {
 
 .no-results {
     padding-top: 0.8rem;
+}
+
+.pokemon-list {
+    margin: 10px;
+    background: #FFF;
+    display: flex;
+}
+
+.pokemon-list li {
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+    
+}
+
+.pokemon-list li:last-child {
+    border-bottom: none;
 }
